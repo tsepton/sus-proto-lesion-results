@@ -1,10 +1,7 @@
-# SUS helper~~s~~
-## List of available tools : 
-- A stacked bar chart creator
-   - Generates a `.pgf` file that can be rendered within Latex, therefore keeping the same font as the document
-
-That's it. Guess I'll add other helpers if I need them. 
+# Proto Lesion - SUS results
 
 ## How to generate the graph
-1. Add your questionnaires results within the .csv file. 
-2. Run the script and enjoy the `output.pgf` graph. 
+1. Add your questionnaire results within the .csv file. 
+2. `pip install matplotlib numpy`
+3. `python3 main.py`
+4. Enjoy the `output.pgf` graph. 
