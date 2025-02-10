@@ -120,5 +120,5 @@ if (__name__ == "__main__"):
     fig.legend(ncol=1, bbox_to_anchor=(0.5, -0.2),
                loc="lower center", borderaxespad=0)
     fig.set_size_inches(w=text_width, h=text_width*1.2)
-    plt.savefig('sus_scores.pgf', dpi=1000, bbox_inches='tight')
+    plt.savefig('output.pgf', dpi=1000, bbox_inches='tight')
     # plt.show()
